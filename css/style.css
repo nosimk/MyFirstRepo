@@ -1,0 +1,100 @@
+
+        body{
+            background-color:floralwhite;
+            font-family: "JetBrains Mono ExtraBold";
+            margin: 0;
+            padding: 0;
+            color:black;
+            font-size: 20px;
+        }
+        nav{
+            background-color:lightskyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            margin: 0;
+
+        }
+       nav ul{
+           display: flex;
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+       }
+       nav ul li{
+           margin:0 40px;
+       }
+       nav ul li a{
+           text-decoration: none;
+           font-size: 20px;
+           font-weight: bold;
+           color: black;
+           padding: 10px 20px;
+           border-radius: 50px;
+       }
+       nav ul li a:hover{
+           background-color: floralwhite;
+           color: lightblue;
+
+       }
+       .hero-image{
+           background-image:url("https://cdn.pixabay.com/photo/2015/05/15/05/31/night-view-767852_640.jpg");
+           background-size:cover;
+           background-position:center;
+           height: 570px;
+           border-radius: 15px;
+           margin: 20px;}
+       .section-1{
+           margin: 20px;
+           font-weight: bold;
+       }
+      .about-us{
+           background-color:floralwhite;
+           height: 60px;
+       }
+       .about{
+           background-color: floralwhite;
+           height: 60px;
+       }
+       .section{
+           background-color: floralwhite;
+           height: 60px;
+       }
+
+        #one{
+            background-color: floralwhite;
+            height: 60px;
+        }
+        #two{
+            background-color: floralwhite;
+            height: 60px;
+        }
+        .image-1 img{
+            height: 40vh;
+            width: 350px;
+
+
+        }
+        .image-2 img{
+            height: 40vh;
+            width: 400px;
+
+        }
+        .image-3 img{
+            height: 40vh;
+            width: 350px;
+
+        }
+        .image-4 img{
+            height: 40vh;
+            width: 350px;
+        }
+        .section-2{
+            display: flex;
+        }
+
+
